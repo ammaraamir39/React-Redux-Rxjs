@@ -4,12 +4,12 @@ import 'firebase/compat/messaging'
 const publicKey = 'BF_Q0G-wyvgUDlGUXbtOo7_uXaRyDMQMq8G8okqE9NtLexInVKQKJsRYT84DimtsGPq3CLG5eWagJ298_EqiDkc'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBoe3V0__wlCN65LuubP0p_QxBO6IgLO7A",
-    authDomain: "bfile-media.firebaseapp.com",
-    projectId: "bfile-media",
-    storageBucket: "bfile-media.appspot.com",
-    messagingSenderId: "317193604801",
-    appId: "1:317193604801:web:06efaa576afc6b6c198e40"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   };
 
 firebase.initializeApp(firebaseConfig);
