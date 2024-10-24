@@ -1,0 +1,128 @@
+body.signup {
+    background: #FFF;
+}
+body.signup .register-form {
+    max-width: 900px;
+    width: 90%;
+    padding: 0px;
+    background: #FFF;
+    border-radius: 4px;
+    margin: 40px auto;
+    border: none;
+}
+body.signup .register-form h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0;
+}
+body.signup .register-form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+body.signup .register-form-header img {
+    max-width: 150px;
+}
+body.signup .content {
+    margin: 0 auto;
+    padding: 40px;
+    width: 100%;
+}
+body.signup h2.secTitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+body.signup .secNum {
+    background: #1890ff;
+    width: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    border-radius: 38px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    margin-right: 7px;
+    color: #FFF;
+}
+body.signup .price {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #1890ff;
+    font-weight: bold
+}
+body.signup .ant-checkbox-wrapper {
+    padding-left: 20px;
+    position: relative;
+}
+body.signup .ant-checkbox-wrapper .ant-checkbox {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+body.signup .ant-checkbox-wrapper .ant-checkbox + span {
+    display: block;
+}
+body.signup .navbuttons {
+    text-align: center;
+    margin-top: 30px;
+}
+body.signup .navbuttons .ant-btn {
+    border: none;
+    border-radius: 26px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+}
+body.signup .navbuttons .ant-btn:hover {
+    opacity: 0.9;
+}
+body.signup .navbuttons .ant-btn-primary {
+    background: #0c8dce;
+}
+body.signup .packages .package {
+    background: #f6f6f6;
+    padding: 30px 30px 60px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+body.signup .packages .package .thumb {
+    margin-bottom: 30px;
+}
+body.signup .packages .package .amount {
+    color: #0c8dce;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 20px 20px;
+}
+body.signup .packages .package .btn {
+    border: none;
+    border-radius: 26px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+    display: inline-block;
+    background: #0c8dce;
+    color: #FFF;
+}
+body.signup .packages .package .btn:hover {
+    background: #0977ae;
+}
+body.signup .packages .package .btn.disabled {
+    background: #e8e8e8;
+    cursor: not-allowed;
+    color: #626262;
+}
+body.signup .packages .package .btnContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -24px;
+}
+body.signup .register-form .step3 h1 {
+    margin-bottom: 20px;
+}
+body.signup .methods {
+    margin: 40px 0;
+}

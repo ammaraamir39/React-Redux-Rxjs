@@ -1,0 +1,7 @@
+.filters {
+    background: #f5f5f5;
+    border-bottom: 1px solid #DEDEDE;
+}
+.filters .filter + .filter {
+    margin-top: 10px;
+}

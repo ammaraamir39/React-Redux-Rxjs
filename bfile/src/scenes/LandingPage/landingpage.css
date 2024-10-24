@@ -1,0 +1,99 @@
+.bfileInfo .thumb {
+    float: left;
+    margin-right: 20px;
+    max-width: 150px;
+}
+.bfileInfo .thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.bfileInfo .bfile_title_contact_info {
+    margin-bottom: 20px;
+}
+.bfileInfo > .ant-card-body > .ant-row > .ant-col-12:last-child {
+    border-left: 1px solid #e8e8e8;
+    padding-left: 20px !important;
+}
+.listCard .ant-list-item-meta-title {
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+.listCard .ant-list-item-meta-title + .ant-list-item-meta-description {
+    width: 50%;
+    float: left;
+}
+.card_items_sold .ant-list-item-meta-title {
+    width: 100%;
+}
+/*.ant-list-item-meta a,
+.ant-list-item-meta a:focus {
+    display: none;
+}*/
+.ant-list-item-meta.current .ant-list-item-meta-title {
+    color: #1890ff;
+}
+#notes h3,
+#notes h3 i {
+    color: #1890ff;
+}
+.socialIcons {
+    margin-top: 10px;
+}
+.socialIcons a + a {
+    margin-left: 10px;
+}
+.cardBlue {
+    width: calc(33.33% - 13.33px);
+    float: left;
+}
+@media screen and (max-width: 1050px) {
+    .cardBlue {
+        width: calc(50% - 13.33px);
+    }
+}
+@media screen and (max-width: 680px) {
+    .cardBlue {
+        width: calc(100%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .profileButtons {
+        margin-bottom: 20px;
+    }
+    #notes .ant-list-item,
+    #notes .ant-list-item .ant-list-item-meta,
+    #notes .ant-list-item .ant-list-item-content {
+        display: block;
+    }
+    #notes .ant-list-item-meta-description {
+        margin-bottom: 5px;
+    }
+    .ant-dropdown-menu {
+        max-width: 98vw;
+    }
+    .ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title {
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 680px) {
+    .cardBlue {
+        width: calc(100%);
+    }
+}
+.gutter {
+    width: 1%;
+}
+.card_household .ant-list-item-meta-title,
+.card_household .ant-list-item-meta-title + .ant-list-item-meta-description {
+    float: none;
+    width: auto;
+    text-align: center;
+}
+.card_household .ant-list-item-meta-description {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #1890ff;
+}

@@ -1,0 +1,10 @@
+body.add-referrals {
+    background: #F8F8F8;
+}
+#box {
+    max-width: 900px;
+    width: 90%;
+    padding: 0px;
+    border-radius: 4px;
+    margin: 40px auto;
+}

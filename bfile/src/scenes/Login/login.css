@@ -1,0 +1,47 @@
+body.login {
+    background: #F8F8F8;
+}
+.login-form {
+    width: 400px;
+    min-height: 485px;
+    padding: 50px;
+    background: #FFF;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -242px;
+}
+.forgot-password-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-form-header img {
+    max-width: 150px;
+}
+.login-form .ant-form-item {
+    margin-bottom: 10px;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}
+.login-form .ant-spin-spinning {
+    display: block;
+    margin-bottom: 13px;
+}
+.login-form .acknowledge {
+    padding: 10px 20px;;
+    background: #f3f3f3;
+    font-size: 13px;
+    border-radius: 4px;
+}

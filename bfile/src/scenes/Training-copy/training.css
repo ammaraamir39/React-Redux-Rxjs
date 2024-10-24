@@ -1,0 +1,34 @@
+.hoopis_logo {
+    text-align: center;
+}
+.hoopis_logo img {
+    max-width: 240px;
+    height: auto;
+}
+.videoCards-u {
+    display: flex!important;
+    flex-wrap: wrap;
+}
+.videoCards .ant-col-8 {
+    min-height: 427px;
+}
+.videoCards .ant-card-meta {
+    height: 158px;
+}
+.videoCards-u .ant-card-meta {
+    height: 300px;
+}
+.videoCards-sp .ant-card-meta {
+    height: 58px;
+}
+.videoCards-sp .ant-card-cover {
+	min-height: 200px;
+	background: #f3f3f3;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.videoCards-sp .ant-card-cover img {
+	color: transparent;
+}

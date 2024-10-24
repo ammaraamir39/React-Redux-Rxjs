@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png?v=0.1">
+    <title>B-File App</title>
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script type="text/javascript">
+      window.stripe = "pk_live_YAQQGSvhi4m5bgjxlWHWjOHT";
+      if (window.location.host === 'bfile.localhost') {
+        window.stripe = "pk_test_W2sSzYUHHXO2lj93OW6KuQyU";
+      }
+    </script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB896cxwdpKJAXgZyvGz5CX2GMCgvVpeI8"></script>
+    <script src="https://cdn.ravenjs.com/3.26.4/raven.min.js" crossorigin="anonymous"></script>
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+
+    <script type="text/javascript">
+      var __lc = {};
+      __lc.license = 12665454;
+    
+      (function() {
+        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+      })();
+    </script>
+
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

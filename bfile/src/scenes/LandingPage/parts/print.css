@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.bfileInfo {
+    text-align: left;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+button {
+    display: none;
+}
+.bfileInfo h2 {
+    margin: 0;
+}
+.bfileInfo .ant-avatar {
+    float: left;
+}
+.bfileInfo .ant-avatar img {
+    width: 90px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+#notes {
+    display: none;
+}
+.cardBlue {
+    width: 33%;
+    float: left;
+}
+.cardBlue .ant-card-body {
+    padding: 20px;
+}
+.cardBlue .ant-card-head {
+    background: #1890ff;
+    padding: 10px 20px;
+    color: #FFF;
+}

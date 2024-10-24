@@ -1,0 +1,594 @@
+.topbar {
+    margin-bottom: 20px;
+}
+.chartVal {
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.chartVal a {
+    color: rgba(0, 0, 0, 0.65);
+}
+.card-small {
+    border-radius: 0;
+    border-bottom: 2px solid #CCC;
+}
+.card-small .chartVal {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.card-red {
+    border-bottom: 2px solid #e74c3d!important;
+}
+.card-red .ant-card-body {
+    background: rgba(231, 76, 61, 0.1);
+}
+.card-red:hover .ant-card-body {
+    background: rgba(231, 76, 61, 0.2);
+}
+.card-red .chartVal {
+    color: #e74c3d;
+}
+.card-blue {
+    border-bottom: 2px solid #3598db!important;
+}
+.card-blue .chartVal {
+    color: #3598db;
+}
+.card-blue .ant-card-body {
+    background: rgba(53, 152, 219, 0.1);
+}
+.card-blue:hover .ant-card-body {
+    background: rgba(53, 152, 219, 0.2);
+}
+.card-green {
+    border-bottom: 2px solid #2dcc70!important;
+}
+.card-green .chartVal {
+    color: #2dcc70;
+}
+.card-green .ant-card-body {
+    background: rgba(45, 204, 112, 0.1);
+}
+.card-green:hover .ant-card-body {
+    background: rgba(45, 204, 112, 0.2);
+}
+.card-purple {
+    border-bottom: 2px solid #7d3c98!important;
+}
+.card-purple .chartVal {
+    color: #7d3c98;
+}
+.card-purple .ant-card-body {
+    background: rgba(125, 60, 152, 0.1);
+}
+.card-purple:hover .ant-card-body {
+    background: rgba(125, 60, 152, 0.2);
+}
+.card-yellow {
+    border-bottom: 2px solid  #f1c40f!important;
+}
+.card-yellow .chartVal {
+    color: #f1c40f;
+}
+.card-yellow .ant-card-body {
+    background: rgba(241, 196, 15, 0.1);
+}
+.card-yellow:hover .ant-card-body {
+    background: rgba(241, 196, 15, 0.2);
+}
+.card-blue1 {
+    border-bottom: 2px solid  #293949!important;
+}
+.card-blue1 .chartVal {
+    color: #293949;
+}
+.card-blue1 .ant-card-body {
+    background: rgba(41, 57, 73, 0.1);
+}
+.card-blue1:hover .ant-card-body {
+    background: rgba(41, 57, 73, 0.2);
+}
+.card-blue2 {
+    border-bottom: 2px solid #2574A9!important;
+}
+.card-blue2 .chartVal {
+    color: #2574A9;
+}
+.card-blue2 .ant-card-body {
+    background: rgba(37, 116, 169, 0.1);
+}
+.card-blue2:hover .ant-card-body {
+    background: rgba(37, 116, 169, 0.2);
+}
+.card-blue3 {
+    border-bottom: 2px solid #5C97BF!important;
+}
+.card-blue3 .chartVal {
+    color: #5C97BF;
+}
+.card-blue3 .ant-card-body {
+    background: rgba(92, 151, 191, 0.1);
+}
+.card-blue3:hover .ant-card-body {
+    background: rgba(92, 151, 191, 0.2);
+}
+.card-blue4 {
+    border-bottom: 2px solid #1e5a82!important;
+}
+.card-blue4 .chartVal {
+    color: #1e5a82;
+}
+.card-blue4 .ant-card-body {
+    background: rgba(30, 90, 130, 0.1);
+}
+.card-blue4:hover .ant-card-body {
+    background: rgba(30, 90, 130, 0.2);
+}
+.card-green1 {
+    border-bottom: 2px solid #1E824C!important;
+}
+.card-green1 .chartVal {
+    color: #1E824C;
+}
+.card-green1 .ant-card-body {
+    background: rgba(30, 130, 76, 0.1);
+}
+.card-green1:hover .ant-card-body {
+    background: rgba(30, 130, 76, 0.2);
+}
+.card-orange {
+    border-bottom: 2px solid #EF6C00!important;
+}
+.card-orange .chartVal {
+    color: #EF6C00;
+}
+.card-orange .ant-card-body {
+    background: rgba(239, 108, 0, 0.1);
+}
+.card-orange:hover .ant-card-body {
+    background: rgba(239, 108, 0, 0.2);
+}
+
+.dateTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ant-timeline .agency {
+    /*color: #999;*/
+}
+.ant-timeline .ant-timeline-item .anticon {
+    margin-left: 10px;
+    opacity: 0;
+}
+.ant-timeline .ant-timeline-item:hover .anticon {
+    opacity: 1;
+}
+.pendingOpportunities .ant-card-extra,
+.have_extra .ant-card-extra {
+    padding: 12px 0;
+}
+.usersGrid {
+    position: relative;
+    max-height: 106px;
+    overflow: hidden;
+}
+.usersGrid > div {
+    opacity: 0.2;
+    z-index: 0;
+    position: relative;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+.usersGrid > button {
+    border-radius: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.usersGrid.expand {
+    max-height: inherit;
+}
+.usersGrid.expand > div {
+    opacity: 1;
+    -webkit-filter: inherit;
+    filter: inherit;
+}
+.usersGrid.expand > button {
+    display: none;
+}
+.usersGrid .ant-card-body {
+    padding: 0;
+}
+.usersGrid .ant-table-thead > tr > th,
+.usersGrid .ant-table-tbody > tr > td {
+    padding: 5px 16px;
+}
+.usersGrid .ant-table-thead > tr > th:last-child,
+.usersGrid .ant-table-tbody > tr > td:last-child {
+    text-align: right;
+}
+.usersGrid .ant-table-thead > tr > th {
+    background: #001529;
+    color: #FFF;
+}
+.usersGrid .ant-card-grid:nth-child(even) .ant-table-thead > tr > th {
+    background: #0c2339;
+}
+.usersGrid .ant-table-thead > tr:first-child > th:first-child {
+    border-top-left-radius: 0;
+}
+.usersGrid .ant-table-thead > tr:first-child > th:last-child {
+    border-top-right-radius: 0;
+}
+.usersGrid .ant-rate {
+    font-size: 14px;
+}
+.usersGrid .ant-rate-star {
+    margin-right: 5px;
+}
+.usersGrid .userStatus {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid RGBA(255, 255, 255, 0.3);
+}
+.usersGrid .userStatus.green {
+    background: #689F38;
+}
+.usersGrid .userStatus.orange {
+    background: #FF8F00;
+}
+.usersGrid .userStatus.red {
+    background: #FF3D00;
+}
+.hideStatsContainer {
+    padding: 20px;
+    text-align: center;
+}
+.hide_stats {
+    border-radius: 0;
+}
+#steps {
+    margin-bottom: 30px;
+}
+.wizardCard {
+    margin-bottom: 20px;
+}
+.wizardCard > .ant-card-head {
+    background: #001529;
+    color: #FFF;
+}
+.wizardCard > .ant-card-head .ant-card-head-title {
+    color: #FFF;
+}
+.wizardCard .ant-card-type-inner .ant-card-head-title,
+.wizardCard .ant-checkbox-wrapper,
+.wizardCard .ant-radio-wrapper,
+.wizardCard .ant-select,
+.wizardCard .ant-card,
+.wizardCard .ant-list-item-meta,
+.wizardCard .ant-list,
+.wizardCard .ant-list-item-meta-title {
+    font-size: 16px;
+}
+.racTotal {
+    font-size: 22px !important;
+    background: #1890ff;
+    color: #FFF;
+    text-align: center;
+    border-radius: 0;
+}
+.racTotal .ant-card-body {
+    padding: 10px;
+}
+.cardFooter {
+    text-align: right;
+}
+.cardFooter span {
+    color: #1890ff;
+}
+.wizardBox {
+    margin-bottom: 20px;
+}
+.wizardBox:last-child {
+    margin-bottom: 0;
+}
+.wizardBox > .ant-card-head .ant-card-head-title {
+    overflow: visible;
+    white-space: inherit;
+}
+.formBox label {
+    margin-bottom: 5px;
+    display: block;
+}
+.liabilityBox {
+    border-color: #1890ff;
+    border-left: 3px solid #1890ff;
+}
+.liabilityBox h2 {
+    color: #1890ff;
+}
+.didYouKnowBox {
+    border-color: #FF8F00;
+    border-left: 3px solid #FF8F00;
+}
+.didYouKnowBox h2 {
+    color: #FF8F00;
+}
+.wizardCard .ant-card-type-inner .ant-card-head .ant-card-head-title {
+    font-weight: bold;
+}
+.wizardFooter .ant-btn-background-ghost {
+    color: #8f8f8f;
+    border-color: #bfbfbf;
+}
+.wizardFooter .ant-btn-background-ghost:hover {
+    color: #1890ff;
+    border-color: #1890ff;
+}
+.wizardFooter .ant-btn-group + button,
+.wizardFooter .ant-btn-group + .ant-btn-group {
+    margin-left: 10px;
+}
+#steps .ant-steps-item {
+    cursor: pointer;
+}
+#steps .ant-steps-item:hover .ant-steps-item-icon {
+    background: #1890ff;
+    border-color: #1890ff;
+}
+#steps .ant-steps-item:hover .ant-steps-item-icon > .ant-steps-icon {
+    color: #FFF;
+}
+#steps .ant-steps-item:hover .ant-steps-item-content > .ant-steps-item-title {
+    color: rgba(0, 0, 0, 0.85);
+}
+.rangeSlider .ant-slider-mark-text:first-child {
+    width: auto!important;
+    margin-left: 0!important;
+    left: -9px!important;
+}
+.rangeSlider .ant-slider-mark-text:last-child {
+    width: auto!important;
+    margin-left: 0!important;
+    left: auto!important;
+    right: -5px!important;
+}
+.sliderValue {
+    color: #1890ff;
+}
+.radioIcons .ant-checkbox {
+    display: none;
+}
+.radioIcons .ant-checkbox-wrapper {
+    display: block;
+    margin: 5px 0;
+}
+.radioIcons .ant-checkbox + span {
+    border: 1px solid #E4E4E4;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+.radioIcons .ant-checkbox.ant-checkbox-checked + span {
+    border-color: #1890ff;
+}
+.radioIconOption .icon {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+.radioIconOption .icon svg,
+.radioIconOption .icon img {
+    max-width: 90%;
+    max-height: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.radioIconOption .title {
+    text-align: center;
+    height: 48px;
+    overflow: hidden;
+}
+.ant-checkbox-checked + span .radioIconOption .title {
+    color: #1890ff;
+}
+.pagination {
+    padding: 10px;
+    text-align: center;
+}
+.pagination a {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background: #dedede;
+    display: inline-block;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+.pagination a:hover:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #000;
+    opacity: 0.1;
+}
+.pagination a + a {
+    margin-left: 10px;
+}
+.pagination a.active {
+    background: #1890ff;
+}
+.btnYes > span:first-child,
+.btnNo > span:first-child,
+.btnOption > span:first-child {
+    display: none;
+}
+.btnYes > span:last-child,
+.btnNo > span:last-child,
+.btnOption > span:last-child {
+    border: 1px solid #E1E1E1;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.btnYes.ant-radio-wrapper-checked > span:last-child,
+.btnNo.ant-radio-wrapper-checked > span:last-child,
+.btnOption.ant-radio-wrapper-checked > span:last-child{
+    border-color: #1890ff;
+    color: #1890ff;
+}
+.btnYes i,
+.btnNo i,
+.btnOption i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+.btnBlock {
+    display: block;
+    margin-bottom: 10px;
+}
+.btnBlock:last-child {
+    margin-bottom: 0;
+}
+.btnBlock > span:last-child {
+    display: block;
+}
+.zillowCard img {
+    max-width: 250px;
+    height: auto;
+}
+.zillowCard .zillowEstimatedValue {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.zillowCard .zillowEstimatedValue span {
+    color: #1890ff;
+}
+.zillowCard input + input,
+.zillowCard input + button {
+    margin-left: 10px;
+}
+.wizardBoxBlue {
+    border-color: #1890ff;
+}
+.wizardBoxBlue > .ant-card-head {
+    background: #1890ff;
+    border-radius: 0;
+}
+.wizardBoxBlue > .ant-card-head .ant-card-head-title {
+    color: #FFF;
+}
+.list-avatar .ant-avatar {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50px;
+}
+.list-avatar .ant-avatar img {
+    max-width: 60%;
+    max-height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.racAmount {
+    font-size: 18px;
+    color: #001529;
+}
+.wizardCardRac > .ant-card-body {
+    padding: 0;
+}
+.wizardNotes > .ant-card-body {
+    padding: 0;
+    max-height: 300px;
+    overflow: auto;
+}
+.wizardNotes .ant-list-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.wizardFinalStep .formBox2 {
+    margin-bottom: 35px;
+}
+.wizardFinalStep .formBox2 .ant-card-body {
+    padding: 0;
+}
+#send_bfile_modal .actionbtn {
+    width: 100%;
+    height: 65px;
+    white-space: inherit;
+    margin: 5px;
+}
+#send_bfile_modal .actionbtn:hover {
+    opacity: 0.8;
+}
+#send_bfile_modal .btn-red {
+    background-color: #e74c3d;
+    border-color: #e74c3d;
+}
+#send_bfile_modal .btn-blue {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    height: 140px;
+}
+#send_bfile_modal .btn-gray {
+    background-color: #9ea2a6;
+    border-color: #9ea2a6;
+}
+#send_bfile_modal .btn-green {
+    background-color: #2dcc70;
+    border-color: #2dcc70;
+}
+#send_bfile_modal .btn-darkblue {
+    background-color: #263238;
+    border-color: #263238;
+}
+#send_bfile_modal .ant-badge {
+    display: block;
+}
+.footerStats .title {
+    height: 42px;
+    overflow: hidden;
+}
+.react-datepicker__time-container,
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+    width: 90px;
+}
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+    right: 100px;
+}
+.inviteLink {
+    display: inline-block;
+}
+.ant-timeline {
+    padding-top: 10px;
+}
+
+.statsGrid .ant-card-grid.card-cols-1{
+    width: 25% !important;
+}
+.review_schedule_full_width .card-cols-1{
+    min-width: 100% !important;
+}
